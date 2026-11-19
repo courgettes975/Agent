@@ -1,0 +1,63 @@
+---
+title: Online Writing
+description: A structured editorial thinking system for AI agents.
+template: splash
+hero:
+  tagline: A structured editorial thinking system for AI agents.
+  actions:
+    - text: Get started
+      link: /online-writing-skills/guides/getting-started/
+      icon: right-arrow
+    - text: Install the plugin
+      link: /online-writing-skills/guides/installation/
+      icon: down-caret
+      variant: minimal
+    - text: View on GitHub
+      link: https://github.com/DonHeidi/online-writing-skills
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## What this is
+
+**Online Writing** is a collection of AI-agent skills for people who already have ideas, notes, or
+opinions and need help turning that raw material into public writing that is easier to follow and
+publish. It treats online writing as a system: purpose shapes topics, topics sit inside content
+buckets, drafts follow format-specific structures, voice is calibrated from examples, and finished
+pieces can be evaluated and reused.
+
+It is **opinionated** and works best with project context (purpose, content buckets, and especially
+voice). The skills are inspired by *The Art and Business of Online Writing* and related practice, but
+this is an independent collection, not an official companion product.
+
+## The workflow
+
+<CardGrid>
+	<Card title="1 · Discover" icon="setting">
+		Establish the durable foundation — why you write, which topics you own, and how your
+		voice should sound. See the [Discovery](/online-writing-skills/guides/discovery/) guide.
+	</Card>
+	<Card title="2 · Produce" icon="pencil">
+		Mine ideas, explore angles, and shape raw material into short-form posts, long-form
+		drafts, or Medium articles. See the [Production](/online-writing-skills/guides/production/) guide.
+	</Card>
+	<Card title="3 · Refine & reuse" icon="approve-check">
+		Improve, diagnose, rate, abstract, and repurpose finished pieces into platform-native
+		formats. See the [Review](/online-writing-skills/guides/review/) guide.
+	</Card>
+	<Card title="Works in German too" icon="translate">
+		A dedicated German workflow — source analysis, briefs, drafting, style, and EN→DE
+		rewriting. See [German Workflow](/online-writing-skills/skills/overview/#german-workflow).
+	</Card>
+</CardGrid>
+
+## Get going
+
+<CardGrid>
+	<LinkCard title="Installation" href="/online-writing-skills/guides/installation/" description="Add the plugin to Claude Code or Codex CLI." />
+	<LinkCard title="Getting Started" href="/online-writing-skills/guides/getting-started/" description="Set up your first writing project and run the discovery skills." />
+	<LinkCard title="Configuration" href="/online-writing-skills/guides/configuration/" description="The .online-writing/ files that give the skills your voice and strategy." />
+	<LinkCard title="All skills" href="/online-writing-skills/skills/overview/" description="Reference for every skill in the collection." />
+</CardGrid>

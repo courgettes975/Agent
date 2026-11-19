@@ -1,0 +1,43 @@
+{
+  "name": "youtube-transcriber",
+  "version": "1.1.0",
+  "description": "Transcribe YouTube videos and playlists using browser-based caption extraction \u2014 free, no API key needed",
+  "author": {
+    "name": "MSApps",
+    "url": "https://msapps.mobi"
+  },
+  "homepage": "https://msapps.mobi/plugins",
+  "license": "MIT",
+  "privacy_policy": "https://opsagents.agency/privacy",
+  "terms_of_service": "https://opsagents.agency/terms",
+  "keywords": [
+    "youtube",
+    "transcribe",
+    "captions",
+    "subtitles",
+    "video",
+    "education",
+    "playlist",
+    "sosa-agents"
+  ],
+  "platforms": [
+    "claude-code",
+    "cowork"
+  ],
+  "sosa": {
+    "compliant": true,
+    "level": 2,
+    "impact": "low",
+    "methodology": "https://github.com/MSApps-Mobile/claude-plugins/blob/main/docs/SOSA.md",
+    "whitepaper": "https://github.com/MSApps-Mobile/claude-plugins/blob/main/docs/sosa-whitepaper.pdf",
+    "pillars": {
+      "supervised": "Fully autonomous \u2014 read-only transcription",
+      "orchestrated": "URL \u2192 Chrome extraction \u2192 structured transcript",
+      "secured": "No API keys needed, Chrome extension only, read-only",
+      "agents": "R=youtube-transcription, T=Chrome-extension, M=none, P=navigate-extract-format"
+    }
+  },
+  "topics": [
+    "sosa-agents"
+  ]
+}

@@ -1,0 +1,39 @@
+name: Welcome new contributors
+
+# Greets people the first time they open an issue or a pull request.
+# A warm first touch is what turns a visitor into a contributor.
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+# SECURITY: this runs on pull_request_target, so it executes with the base repo's token and
+# secrets even for fork PRs. It MUST NOT add actions/checkout of the PR head or any build/run
+# step that could execute fork-authored code. It only posts fixed greeting text; keep it that way.
+jobs:
+  welcome:
+    name: Greet first-time contributors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@2ec0f0fd78838633cd1c1342e4536d49ef72be54 # v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: >
+            Welcome, and thank you for opening your first issue in Founder OS.
+            This project exists because startup knowledge should not be gatekept.
+            One house rule, carried from the lab: proof before hype. If you are
+            reporting a problem, a clear example helps; if you are proposing a
+            skill, the [ROADMAP.md](ROADMAP.md) lists open "good
+            first issue" slots. A maintainer will be with you soon.
+          pr-message: >
+            Welcome, and thank you for your first pull request to Founder OS.
+            Every skill here helps a first-time founder take a clearer next step,
+            so your contribution matters. Please make sure your change keeps the
+            attribution intact and follows [CONTRIBUTING.md](CONTRIBUTING.md).
+            Proof before hype: if you can, say what you tested. A maintainer will
+            review shortly.

@@ -1,0 +1,10 @@
+.dev/
+
+# editor config
+.vscode/
+
+# Astro docs site (site/)
+site/node_modules/
+site/dist/
+site/.astro/
+__pycache__/

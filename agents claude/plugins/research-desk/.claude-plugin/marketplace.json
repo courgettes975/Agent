@@ -1,0 +1,33 @@
+{
+  "name": "claude-research-skills",
+  "owner": {
+    "name": "Naji Kayal",
+    "url": "https://github.com/najikay"
+  },
+  "metadata": {
+    "description": "Research Desk: seven research skills for Claude (citation check, literature notes, paper comparison, related work, paper critique, decision matrix, LLM council) and a reference checker."
+  },
+  "plugins": [
+    {
+      "name": "research-desk",
+      "source": "./",
+      "description": "Research work you can stand behind: check that references are real, take faithful notes on a paper, compare papers, draft related work from your own sources, review a draft like a referee, decide between options with a weighted matrix, and get a judged second opinion. Says plainly what it could not verify.",
+      "version": "0.4.1",
+      "author": {
+        "name": "Naji Kayal"
+      },
+      "keywords": [
+        "research",
+        "citations",
+        "references",
+        "papers",
+        "literature-review",
+        "related-work",
+        "peer-review",
+        "thesis",
+        "decisions"
+      ],
+      "license": "Apache-2.0"
+    }
+  ]
+}

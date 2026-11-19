@@ -1,0 +1,45 @@
+{
+  "name": "3doptix",
+  "version": "1.0.0",
+  "description": "Optical design and simulation powered by the 3DOptix platform. Bundles the 3DOptix MCP server with skills for setup creation, component placement, ray-trace simulation, analysis and optimisation.",
+  "author": {
+    "name": "3DOptix",
+    "email": "support@3doptix.com",
+    "url": "https://www.3doptix.com"
+  },
+  "homepage": "https://www.3doptix.com",
+  "repository": "https://github.com/3doptix/skills",
+  "license": "MIT",
+  "keywords": [
+    "optics",
+    "optical-design",
+    "simulation",
+    "ray-tracing",
+    "photonics",
+    "zemax",
+    "cad"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "3DOptix",
+    "shortDescription": "Design, simulate and analyse optical systems",
+    "longDescription": "Build optical setups, place lenses, mirrors and detectors, run GPU ray-trace simulations, analyse spot diagrams and irradiance, optimise layouts, and import existing designs from Zemax or CAD — all through the 3DOptix cloud platform.",
+    "developerName": "3DOptix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.3doptix.com",
+    "privacyPolicyURL": "https://www.3doptix.com/privacy-policy",
+    "termsOfServiceURL": "https://www.3doptix.com/term-conditions-of-use/",
+    "brandColor": "#2E3333",
+    "composerIcon": "./assets/icon-512.png",
+    "logo": "./assets/icon-512.png",
+    "defaultPrompt": [
+      "Build a 2-lens beam expander in 3DOptix and check the output collimation.",
+      "Import my Zemax file into 3DOptix and run a spot diagram."
+    ]
+  }
+}

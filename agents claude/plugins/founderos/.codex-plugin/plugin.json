@@ -1,0 +1,15 @@
+{
+  "name": "founderos",
+  "version": "0.2.0",
+  "license": "Apache-2.0 AND CC-BY-4.0",
+  "description": "The open operating system for first-time founders - theme-agnostic skills, flows, and loops for the whole startup journey.",
+  "skills": "./skills/",
+  "instructions": "./AGENTS.md",
+  "interface": {
+    "displayName": "Founder OS",
+    "shortDescription": "Skills for the whole founder journey: idea → validation → MVP → launch → fundraise → operate",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "brandColor": "#6D28D9"
+  }
+}

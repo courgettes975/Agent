@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "3doptix",
+  "description": "3DOptix optical design and simulation extensions for Claude Code",
+  "owner": {
+    "name": "3DOptix",
+    "email": "support@3doptix.com",
+    "url": "https://www.3doptix.com"
+  },
+  "plugins": [
+    {
+      "name": "3doptix",
+      "displayName": "3DOptix",
+      "description": "Optical design and simulation powered by the 3DOptix platform. Bundles the 3DOptix MCP server with skills for setup creation, component placement, ray-trace simulation, analysis and optimisation.",
+      "author": {
+        "name": "3DOptix"
+      },
+      "category": "design",
+      "keywords": [
+        "optics",
+        "optical-design",
+        "simulation",
+        "ray-tracing",
+        "photonics",
+        "zemax",
+        "cad"
+      ],
+      "source": "./",
+      "homepage": "https://www.3doptix.com",
+      "version": "1.0.0"
+    }
+  ]
+}

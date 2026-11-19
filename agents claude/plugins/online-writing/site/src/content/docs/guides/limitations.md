@@ -1,0 +1,96 @@
+---
+title: Known Limitations
+description: What this collection is not, and the constraints to be aware of before relying on it.
+---
+
+This collection is deliberately opinionated and useful within a specific scope. Being clear about
+where it stops is part of using it well.
+
+## It depends on your project context — by design
+
+This is a deliberate design choice, not a defect: the skills are built to write in *your* voice, so
+they need context to do it. Without [discovery](/online-writing-skills/guides/discovery/)
+(`purpose.md`, `buckets.md`, and especially `tonality.md`), the production skills fall back to safe,
+generic defaults and drift toward a sales-y, everyone's-voice register. They work without
+configuration, but they are not meant to produce *your* voice from nothing. Treat the
+[discovery setup](/online-writing-skills/guides/getting-started/) as a prerequisite, not an optional
+extra.
+
+## It is opinionated, not universal
+
+The frameworks, quality criteria, and defaults are closely aligned with one writer's workflow and a
+particular school of social-first online writing. They encode real opinions about structure, pacing,
+and voice. If your conventions differ (academic writing, long-form journalism, technical reference
+docs), expect friction — the skills will nudge you toward their house style.
+
+## American English first; experimental German support
+
+The collection is **American English first** — most skills, guides, and examples assume American
+English conventions. German support is **experimental**: a smaller, intentionally scoped subset —
+source analysis (`analysiere-quelle`), long-form drafting (`schreibe-entwurf`), EN→DE rewriting
+(`rewrite-de`), and style (`finde-stil`).
+
+The German pipeline has **known gaps**: short-form German drafting (`schreibe-post`) and German
+micro-post distillation (`destilliere`) are referenced as future skills and **do not exist yet**. See
+the [German workflow](/online-writing-skills/skills/overview/#german-workflow) for what is currently covered. Other
+languages are not supported.
+
+## It is not a one-shot content generator
+
+The skills package and structure *your* thinking — they do not replace it. You still have to decide
+what matters, choose the point of view, supply the raw material, and take responsibility for the
+result. Hand the skills an empty prompt and you get generic output; hand them real ideas and they help
+you shape them.
+
+Producing something good is also **iterative**: expect to move between the discovery, drafting, and
+review skills more than once, refining input and output as you go. This is not a
+press-one-button-get-a-finished-piece tool.
+
+## No SEO optimization
+
+The workflows are written for human readers (and, incidentally, AI readers). There is currently **no
+support for search-engine optimization** — keyword targeting, meta structuring, or SERP-oriented
+formatting. If you need SEO, you will have to layer it on yourself.
+
+## Imagery is Midjourney-only (experimental)
+
+The [`illustrate`](/online-writing-skills/skills/illustrate/) skill is **experimental** and produces
+**Midjourney prompts** only. It does not target other image generators, search stock photography, or
+edit existing images, and the end-to-end image workflow (submission, asset capture, wiring) is only
+partially built.
+
+## Source material handling is evolving
+
+The skills draw on external concepts and may use reference texts during the writing process. How
+sources are used — and whether they are named in the output — is still being refined. By default the
+skills use ideas without explicit attribution unless you ask for it. This collection is **not** a
+substitute for, endorsement of, or official companion to the works it is inspired by.
+
+## Output is non-deterministic
+
+These are LLM-driven skills. The same input can produce different output across runs, and quality
+varies with the model and runtime you use — features that work in one runtime or model tier may behave
+differently in another. The evaluation skills
+([`rate`](/online-writing-skills/skills/rate/),
+[`diagnose`](/online-writing-skills/skills/diagnose/)) are **guidance, not guarantees** — they
+reflect the framework's judgment, not an objective ground truth. And because they are themselves
+LLM-driven, they are subject to the same non-determinism: a score or diagnosis can vary between runs.
+Always review output before publishing.
+
+## It is token-intensive
+
+This is not a lightweight workflow. The skills load reference guides, your configuration, and your
+voice samples into context; the discovery skills run multi-turn interviews; and the drafting skills
+produce long outputs (up to 2,500–3,000 words) often across several iterations. Expect meaningfully
+higher token usage — and, on metered runtimes, higher cost and slower turns — than a single one-shot
+prompt. Treat it as a deliberate trade: more context and structure in exchange for output that
+actually sounds like you.
+
+## Configuration lives outside the agent context — by design
+
+The writer-specific configuration is **not part of the agent or plugin setup**. By design it lives in
+each project's `.online-writing/` folder, separate from the skills' own context, so one installation
+can serve many projects without mixing their voice and strategy (see
+[Configuration](/online-writing-skills/guides/configuration/)). You are responsible for creating,
+curating, and keeping it current — including using separate project folders when contexts should not
+mix. Nothing is synced or stored centrally for you.
