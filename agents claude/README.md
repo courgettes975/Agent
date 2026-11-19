@@ -3,7 +3,7 @@
 Export des agents et skills du compte (19/11/2026).
 
 - `agents/` : orchestrator + 8 agents spécialisés (format Claude Code).
-- `skills/` : 19 skills du compte (dossier complet de chaque skill).
+- `skills/` : 19 skills du compte + 4 skills de projet (debug-issue, explore-codebase, refactor-safely, review-changes).
 - `plugins/` : les 77 plugins installés (dont `maigret`, plugin personnel).
 - `plugins/INVENTAIRE.md` : liste des plugins avec leur origine.
 
