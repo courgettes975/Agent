@@ -1,0 +1,12 @@
+node_modules/
+dist/
+tmp/
+
+# Key material — never commit
+*.pem
+*.key
+mcp-registry-auth
+
+# OS noise
+.DS_Store
+Thumbs.db

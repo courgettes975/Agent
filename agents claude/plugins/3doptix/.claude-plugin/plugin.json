@@ -1,0 +1,22 @@
+{
+  "name": "3doptix",
+  "description": "Optical design and simulation powered by the 3DOptix platform. Bundles the 3DOptix MCP server with skills for setup creation, component placement, ray-trace simulation, analysis and optimisation.",
+  "author": {
+    "name": "3DOptix",
+    "email": "support@3doptix.com",
+    "url": "https://www.3doptix.com"
+  },
+  "homepage": "https://www.3doptix.com",
+  "repository": "https://github.com/3doptix/skills",
+  "license": "MIT",
+  "keywords": [
+    "optics",
+    "optical-design",
+    "simulation",
+    "ray-tracing",
+    "photonics",
+    "zemax",
+    "cad"
+  ],
+  "version": "1.0.0"
+}

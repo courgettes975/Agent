@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+bin/
+*.part
+*.mp4
+*.wav
+graphify-out/

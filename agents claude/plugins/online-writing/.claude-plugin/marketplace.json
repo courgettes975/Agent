@@ -1,0 +1,14 @@
+{
+  "name": "online-writing-marketplace",
+  "description": "Sebastian Heitmann's online-writing plugin: a complete, opinionated workflow for social-first writing — purpose and voice discovery, ideation, drafting, diagnostics, rating, and repurposing.",
+  "owner": {
+    "name": "Sebastian Heitmann",
+    "url": "https://github.com/DonHeidi"
+  },
+  "plugins": [
+    {
+      "name": "online-writing",
+      "source": "./"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Plugins installes sur le compte
 
-Seul `maigret` (My Uploads) est copie ici. Les autres viennent des marketplaces et se reinstallent depuis claude.ai (Parametres > Plugins).
+Tous les plugins sont copies dans ce dossier (un sous-dossier par plugin).
 
 | Marketplace | Plugin | Description |
 |---|---|---|

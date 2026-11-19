@@ -1,0 +1,21 @@
+{
+  "name": "founderos",
+  "owner": {
+    "name": "Adam M. Adamek (Impact Brussels ASBL)",
+    "url": "https://impact.brussels"
+  },
+  "metadata": {
+    "description": "The open operating system for first-time founders - skills, flows, loops, and advisor agents for the whole startup journey.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "founderos",
+      "source": "./",
+      "description": "23 founder skills across 5 journey stages, 3 flows, 3 loops, 3 advisor agents, a living knowledge base, and a shared prompt-scaffold engine.",
+      "version": "0.2.0",
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "category": "productivity"
+    }
+  ]
+}

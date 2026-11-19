@@ -1,0 +1,20 @@
+{
+  "name": "3doptix",
+  "description": "3DOptix optical design and simulation extensions",
+  "owner": {
+    "name": "3DOptix",
+    "email": "support@3doptix.com",
+    "url": "https://www.3doptix.com"
+  },
+  "plugins": [
+    {
+      "name": "3doptix",
+      "description": "Optical design and simulation powered by the 3DOptix platform. Bundles the 3DOptix MCP server with skills for setup creation, component placement, ray-trace simulation, analysis and optimisation.",
+      "version": "1.0.0",
+      "source": {
+        "source": "local",
+        "path": "./"
+      }
+    }
+  ]
+}

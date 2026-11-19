@@ -1,0 +1,25 @@
+name: Validate
+
+# Every store clones this repository directly, and the Claude plugin directory mirrors pushes
+# to main automatically. A broken manifest reaches users without human review, so check it here.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # No dependencies to install — the script is plain Node.
+      - name: Validate skills and manifests
+        run: node scripts/validate.js

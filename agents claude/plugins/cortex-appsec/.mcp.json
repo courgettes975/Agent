@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cortex-appsec": {
+      "type": "http",
+      "url": "${user_config.cortex_api_base_url}/public_api/appsec/v1/stream/mcp",
+      "headers": {
+        "Authorization": "${user_config.cortex_api_key}",
+        "x-xdr-auth-id": "${user_config.cortex_key_id}"
+      }
+    }
+  }
+}
