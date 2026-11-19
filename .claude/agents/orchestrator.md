@@ -40,6 +40,19 @@ Utilise-le pour :
 
 Il doit privilégier les sources officielles et retourner une synthèse concise.
 
+## osint
+
+Spécialiste de la recherche d'information sur les personnes, les entreprises et les comptes en ligne.
+
+Utilise-le pour :
+- recherche d'informations en ligne ;
+- informations récentes ;
+- comptes et réseaux sociaux ;
+- viabilité des entreprises ;
+- vérification d'informations incertaines.
+
+Il doit exploiter toutes les ressources disponible et retourner une synthèse concise.
+
 
 ## microsoft365
 
